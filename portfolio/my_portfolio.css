@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: slategray;
+}
+
+.logoset img {
+    width: 3rem;
+    border-radius: 1rem 2rem;
+    height: 4rem;
+}
+
+.logoset {
+    display: flex;
+    gap: 0 1rem;
+    flex-wrap: wrap;
+}
+
+.logoset h2 {
+    color: #fff;
+    margin: 0.5rem 0 0 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    gap: 0 5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:#102542;
+    height: 5rem;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 0 2rem;
+    margin: 1.5rem 0 0 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #F87060;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.7rem;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+     background-color: #c37d76e0;
+    color: #102542;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eaecc6;
+}
+
+h2 {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #eaecc6;;
+    margin: 0 0 1rem 0;
+}
+
+h3 {
+    color: #eaecc6;
+    margin: 1rem 0 1rem 0;
+    font-weight: bold;
+}
+
+.image-set img {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 3rem 8rem;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0 0 0;
+}
+
+.message-content {
+    padding: 10rem 0 0 0;
+}
+
+.message-content h4 {
+    color: #eaecc6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 0 1rem 0;
+}
+
+.message-content p {
+    color: #fcf7f8;
+   margin: 0 0 2rem 0;
+}
+
+.message-content .download-cv a {
+    text-decoration: none;
+    border-radius: 1rem 2rem;
+    border:solid #F87060;
+    transition-duration: 0.4s;
+    margin-top: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+    color: #F87060
+}
+
+.message-content .download-cv a:hover {
+    font-weight: bold;
+    color: #fcf7f8;
+    background-color: transparent;
+    border: solid #fcf7f8 2px;
+}
+
+.accounts img {
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem 0 0 1rem;
+    border-radius: 50%;
+}
+
+.accounts img:hover {
+    opacity: 0.3;
+}
+
+.hero-container .section_2 {
+    color: #fcf7f8;
+    text-align: center;
+    margin: 8rem 0 0 1rem;
+}
+
+
+
+footer p {
+    text-align: center;
+    color: #fcf7f8;
+}
+
+footer {
+    border: solid black;
+    padding: 2rem 0 2rem 0;
+    background-color: #102542;
+}
